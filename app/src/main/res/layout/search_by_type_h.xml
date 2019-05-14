@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".tabClass.HomePage">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightBrown">
+
+
+        <!--<Button-->
+        <!--android:id="@+id/button1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Button - Go to AR"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/toolbar"/>-->
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/home_item_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+
+            app:layout_constraintTop_toTopOf="parent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chair"
+                    android:fontFamily="@font/crimsontext_bold"
+                    android:textColor="@color/black"
+                    android:textSize="50sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Collection of chairs"
+                    android:fontFamily="@font/fam_1"/>
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:src="@drawable/chair1_r"
+                android:cropToPadding="true"
+
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="20dp"
+
+
+                />
+        </android.support.constraint.ConstraintLayout>
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="370dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="10dp"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/home_item_1"/>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/home_item_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+
+            app:layout_constraintTop_toBottomOf="@+id/line1">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bed"
+                    android:fontFamily="@font/crimsontext_bold"
+                    android:textColor="@color/black"
+                    android:textSize="50sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Collection of beds"
+                    android:fontFamily="@font/fam_1"/>
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:src="@drawable/bed_r1"
+                android:cropToPadding="true"
+
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="20dp"
+
+
+                />
+        </android.support.constraint.ConstraintLayout>
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="370dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/home_item_2"/>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/home_item_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+
+            app:layout_constraintTop_toBottomOf="@id/line2">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rack"
+                    android:fontFamily="@font/crimsontext_bold"
+                    android:textColor="@color/black"
+                    android:textSize="50sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Collection of racks"
+                    android:fontFamily="@font/fam_1"/>
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:src="@drawable/rack_r"
+                android:cropToPadding="true"
+                android:scaleType="center"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="20dp"
+
+
+                />
+        </android.support.constraint.ConstraintLayout>
+        <View
+            android:id="@+id/line3"
+            android:layout_width="370dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/home_item_3"/>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/home_item_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+
+            app:layout_constraintTop_toBottomOf="@id/line3">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sofa"
+                    android:fontFamily="@font/crimsontext_bold"
+                    android:textColor="@color/black"
+                    android:textSize="50sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Collection of sofas"
+                    android:fontFamily="@font/fam_1"/>
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:src="@drawable/sofa_r"
+                android:cropToPadding="true"
+
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="20dp"
+
+
+                />
+        </android.support.constraint.ConstraintLayout>
+        <View
+            android:id="@+id/line4"
+            android:layout_width="370dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/home_item_4"/>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/home_item_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintTop_toBottomOf="@id/line4"
+            app:layout_constraintBottom_toBottomOf="parent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Table"
+                    android:fontFamily="@font/crimsontext_bold"
+                    android:textColor="@color/black"
+                    android:textSize="50sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Collection of tables"
+                    android:fontFamily="@font/fam_1"/>
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:src="@drawable/table1_r"
+                android:cropToPadding="true"
+
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="20dp"
+
+
+                />
+        </android.support.constraint.ConstraintLayout>
+
+
+
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,87 @@
+{
+  materials: [
+    {
+      name: 'fabric',
+      parameters: [
+        {
+          baseColor: 'fabric',
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'wood',
+      parameters: [
+        {
+          baseColor: 'wood',
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/jean_obj.obj',
+    name: 'jean_obj',
+    recenter: 'root',
+    scale: 0.0065669999999999999,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\fabric.jpg',
+      name: 'fabric',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'fabric.jpg',
+    },
+    {
+      file: 'sampledata/models\\wood.png',
+      name: 'wood',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'wood.png',
+    },
+  ],
+  version: '0.54:2',
+}

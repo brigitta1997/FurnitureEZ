@@ -1,0 +1,13 @@
+newmtl wire_5
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 1
+	Ka 0.87109375 0.67578125 0.484375
+    Kd 0.87109375 0.67578125 0.484375
+	Ks 0.3500 0.3500 0.3500
+	map_Ka Wood-texture-DF.jpg
+    map_Kd Wood-texture-DF.jpg
+    map_Ks Wood-texture-Spec.jpg
+    map_bump Wood-texture-Bump.jpg

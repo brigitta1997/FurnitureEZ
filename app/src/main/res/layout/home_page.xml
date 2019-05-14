@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".tabClass.HomePage"
+    android:background="@color/lightBrown">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <HorizontalScrollView
+            android:id="@+id/hv"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="15dp"
+            android:background="@color/whiteBrown"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                </android.support.v7.widget.RecyclerView>
+                <!--<ImageView-->
+                    <!--android:layout_width="150dp"-->
+                    <!--android:layout_height="120dp"-->
+                    <!--android:src="@drawable/ikea_logo"-->
+                    <!--android:scaleType="fitCenter"-->
+                    <!--android:adjustViewBounds="true"-->
+                    <!--android:cropToPadding="true"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_marginRight="5dp"/>-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="150dp"-->
+                    <!--android:layout_height="120dp"-->
+                    <!--android:src="@drawable/fixblock"-->
+                    <!--android:scaleType="fitCenter"-->
+                    <!--android:adjustViewBounds="true"-->
+                    <!--android:cropToPadding="true"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginRight="5dp"/>-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="150dp"-->
+                    <!--android:layout_height="120dp"-->
+                    <!--android:src="@drawable/heavywood"-->
+                    <!--android:scaleType="fitCenter"-->
+                    <!--android:adjustViewBounds="true"-->
+                    <!--android:cropToPadding="true"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginRight="5dp"/>-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="150dp"-->
+                    <!--android:layout_height="120dp"-->
+                    <!--android:src="@drawable/moderno"-->
+                    <!--android:scaleType="fitCenter"-->
+                    <!--android:adjustViewBounds="true"-->
+                    <!--android:cropToPadding="true"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginRight="5dp"/>-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="150dp"-->
+                    <!--android:layout_height="120dp"-->
+                    <!--android:src="@drawable/sda"-->
+                    <!--android:scaleType="fitCenter"-->
+                    <!--android:adjustViewBounds="true"-->
+                    <!--android:cropToPadding="true"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginRight="5dp"/>-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="150dp"-->
+                    <!--android:layout_height="120dp"-->
+                    <!--android:src="@drawable/builders"-->
+                    <!--android:scaleType="fitCenter"-->
+                    <!--android:adjustViewBounds="true"-->
+                    <!--android:cropToPadding="true"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginRight="5dp"/>-->
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <Button
+            android:id="@+id/sel_by_col"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/hv"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_1"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Select By Collections"
+            android:fontFamily="@font/crimsontext_regular"
+            android:textSize="20sp"
+            android:padding="10dp"/>
+
+
+
+
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

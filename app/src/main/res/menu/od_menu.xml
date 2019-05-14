@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Shopping Cart"
+        android:id="@+id/cart"
+        android:icon="@drawable/cart"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+
+    <item
+        android:title="Favourite"
+        android:id="@+id/favourite"
+        android:icon="@drawable/heart_empty"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+</menu>

@@ -1,0 +1,66 @@
+{
+  materials: [
+    {
+      name: 'wire_5',
+      parameters: [
+        {
+          baseColor: 'Wood-texture-DF',
+        },
+        {
+          baseColorTint: [
+            0.87109400000000003,
+            0.67578099999999997,
+            0.484375,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/chair1.obj',
+    name: 'chair1',
+    recenter: 'root',
+    scale: 0.017170999999999999,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\Wood-texture-DF.jpg',
+      name: 'Wood-texture-DF',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'Wood-texture-DF.jpg',
+    },
+    {
+      file: 'sampledata/models\\Wood-texture-Spec.jpg',
+      name: 'Wood-texture-Spec',
+      pipeline_name: 'Wood-texture-Spec.jpg',
+    },
+    {
+      file: 'sampledata/models\\Wood-texture-Bump.jpg',
+      name: 'Wood-texture-Bump',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'Wood-texture-Bump.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

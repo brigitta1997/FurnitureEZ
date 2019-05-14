@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Look"
+        android:id="@+id/look"
+        android:icon="@drawable/ic_look"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+
+    <item
+        android:title="Delete"
+        android:id="@+id/deleteItem"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+
+
+</menu>
